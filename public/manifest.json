@@ -13,13 +13,10 @@
     "default_title": "Pomodoro Timer",
     "default_popup": "popup/popup.html"
   },
-  "permissions": [
-    "storage",
-    "alarms",
-    "notifications"
-  ],
+  "permissions": ["storage", "alarms", "notifications"],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background.js",
+    "type": "module"
   },
   "options_page": "options/options.html"
 }
