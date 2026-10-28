@@ -2,7 +2,6 @@
 
 A Chrome extension (Manifest V3) written in TypeScript. It has a Pomodoro timer and a simple task list.
 
-![Screenshot](screenshot.png)
 
 ## Features
 
